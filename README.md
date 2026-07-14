@@ -1,16 +1,89 @@
-# React + Vite
+# GitHub Profile Finder 🔍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React application that allows users to search for GitHub profiles and view detailed information using the GitHub REST API.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🔎 Search GitHub users by username
+- 👤 View profile information
+  - Profile picture
+  - Name
+  - Bio
+  - Location
+  - Company
+  - Website
+- 📊 GitHub statistics
+  - Public Repositories
+  - Followers
+  - Following
+- 📂 Display user's repositories
+- 🌐 Direct link to GitHub profile
+- ⏳ Loading animation while fetching data
+- ❌ Error handling for invalid usernames
+- 📱 Fully responsive design
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript (ES6+)
+- Axios
+- CSS
+- GitHub REST API
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/github-profile-finder.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd github-profile-finder
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+## 📁 Folder Structure
+
+```
+src/
+├── components/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## 🔗 API Used
+
+GitHub REST API
+
+https://api.github.com/users/{username}
+
+## 📌 Future Improvements
+
+- Dark/Light mode
+- Repository search
+- Pagination for repositories
+- Sort repositories by stars
+- Recent search history
+- GitHub contribution graph
+
+## 👨‍💻 Author
+
+Shavez Ali
+
+If you like this project, don't forget to ⭐ the repository!
